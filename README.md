@@ -49,7 +49,7 @@ curl -H "Host: php-demo.local" http://localhost:8081/ping
 ```
 - Teste de escala com carga sustentada (recomendado):
 ```bash
-hey -z 60s -c 20 -host "php-demo.local" http://localhost:8081/ping
+hey -z 20s -c 1 -q 6 -host "php-demo.local" http://localhost:8081/ping
 ```
 - Alternativas:
 ```bash
