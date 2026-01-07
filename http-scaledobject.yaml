@@ -17,7 +17,7 @@ spec:
   replicas:
     min: 0
     max: 10
-  scaledownPeriod: 20
+  scaledownPeriod: 5
   scalingMetric:
     requestRate:
       granularity: 1s
