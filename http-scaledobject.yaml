@@ -20,6 +20,6 @@ spec:
   scaledownPeriod: 5
   scalingMetric:
     requestRate:
-      granularity: 1s
-      targetValue: 5
+      granularity: 5s
+      targetValue: 10
       window: 5s

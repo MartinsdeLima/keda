@@ -4,7 +4,7 @@ metadata:
   name: keda-php-demo
   namespace: keda-demo
 spec:
-  replicas: 0
+  replicas: 1
   selector:
     matchLabels:
       app: keda-php-demo
