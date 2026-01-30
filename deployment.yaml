@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: keda-php-demo
-          image: martinslima/keda-php-demo:latest
+          image: martinslima/keda-php-demo:latest-arm
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8080
