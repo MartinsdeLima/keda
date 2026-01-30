@@ -12,4 +12,4 @@ RUN chmod 755 /var/www/html && chmod 644 /var/www/html/index.php
 # Switch para usuário não-root
 USER phpuser
 
-CMD ["php", "-S", "0.0.0.0:8089", "-t", "/var/www/html"]
+CMD ["php", "-S", "0.0.0.0:8080", "-t", "/var/www/html"]
