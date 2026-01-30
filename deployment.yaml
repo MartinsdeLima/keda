@@ -26,8 +26,10 @@ metadata:
   name: keda-php-demo
   namespace: keda-demo
 spec:
+  type: NodePort
   selector:
     app: keda-php-demo
   ports:
     - port: 80
       targetPort: 8080
+      nodePort: 30080
