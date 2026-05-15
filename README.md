@@ -1,4 +1,4 @@
-Instalação do KEDA no cluster Kubernetes
+Instalação do KEDA HTTP Add-on no cluster Kubernetes
 
 1 - Configuração HTTPScaledObject para a aplicação PHP
 - Namespace: `keda-demo`
